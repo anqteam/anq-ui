@@ -1,0 +1,15 @@
+# 忽略目录
+build/
+node_modules/
+
+# node 覆盖率文件
+coverage/
+
+# 忽略文件
+**/*-min.js
+**/*.min.js
+
+# 有较多的模板（ejs）语法
+packages/ice-react-material-template/template
+packages/ice-vue-material-template/template
+packages/ice-angular-material-template/template
